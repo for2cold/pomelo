@@ -12,21 +12,6 @@
 
     <artifactId>pomelo-api-impl</artifactId>
 
-    <profiles>
-        <profile>
-            <id>dev</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <properties>
-                <datasource.url>jdbc:mysql://localhost/kjgy_db?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull</datasource.url>
-                <datasource.username>root</datasource.username>
-                <datasource.password>UPKHjoLOVqVSwjk2nbGJB289xi5mg4kHS5Sjd1zQONv2cG6FkJwkNUsi3b43C2sV0o1MGEcxTGvR8AKQ0GFg0A==</datasource.password>
-                <datasource.publicKey>MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKpsrx8oxpcBWYqDk4SXZfIz733mHJoYnVbgjXenpKFWYgsv4el3hAP2KojtAqLfSBjNDEgJfHdruxtWLI08jDcCAwEAAQ==</datasource.publicKey>
-            </properties>
-        </profile>
-    </profiles>
-
     <dependencies>
         <dependency>
             <groupId>me.kazyle</groupId>

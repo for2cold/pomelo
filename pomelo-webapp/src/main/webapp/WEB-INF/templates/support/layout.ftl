@@ -10,7 +10,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="${base}/css/bootstrap.min.css?v=${libVersion!}">
-        <link rel="stylesheet" href="${base}/css/mower.css?v=${libVersion!}">
+        <link rel="stylesheet" href="${base}/css/mower.min.css?v=${libVersion!}">
         <link rel="stylesheet" href="${base}/css/app.css?v=${libVersion!}">
         <script src="${base}/js/libs/themes.js?v=${libVersion!}" type="text/javascript"></script>
         <!-- [if lt IE 9] >

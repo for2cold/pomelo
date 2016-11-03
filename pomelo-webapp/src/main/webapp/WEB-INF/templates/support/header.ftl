@@ -75,44 +75,43 @@
                                     <li class="theme-area">
                                         <ul class="colorpicker" id="skin-changer">
                                             <li>
-                                                <a class="colorpick-btn" href="#" style="background-color:#d40b07;" rel="../../mower/admin/css/red.min.css"></a>
+                                                <a class="colorpick-btn" href="#" style="background-color:#d40b07;" rel="${base}/css/themes/red.min.css"></a>
                                             </li>
                                             <li>
-                                                <a class="colorpick-btn" href="#" style="background-color:#AC193D;" rel="../../mower/admin/css/darkred.min.css"></a>
+                                                <a class="colorpick-btn" href="#" style="background-color:#AC193D;" rel="${base}/css/themes/darkred.min.css"></a>
                                             </li>
                                             <li>
-                                                <a class="colorpick-btn" href="#" style="background-color:#cc324b;" rel="../../mower/admin/css/pink.min.css"></a>
+                                                <a class="colorpick-btn" href="#" style="background-color:#cc324b;" rel="${base}/css/themes/pink.min.css"></a>
                                             </li>
                                             <li>
-                                                <a class="colorpick-btn" href="#" style="background-color:#5DB2FF;" rel="../../mower/admin/css/blue.min.css"></a>
+                                                <a class="colorpick-btn" href="#" style="background-color:#5DB2FF;" rel="${base}/css/themes/blue.min.css"></a>
                                             </li>
                                             <li>
-                                                <a class="colorpick-btn" href="#" style="background-color:#2dc3e8;" rel="../../mower/admin/css/azure.min.css"></a>
+                                                <a class="colorpick-btn" href="#" style="background-color:#2dc3e8;" rel="${base}/css/themes/azure.min.css"></a>
                                             </li>
                                             <li>
-                                                <a class="colorpick-btn" href="#" style="background-color:#03B3B2;" rel="../../mower/admin/css/teal.min.css"></a>
+                                                <a class="colorpick-btn" href="#" style="background-color:#03B3B2;" rel="${base}/css/themes/teal.min.css"></a>
                                             </li>
                                             <li>
-                                                <a class="colorpick-btn" href="#" style="background-color:#53a93f;" rel="../../mower/admin/css/green.min.css"></a>
+                                                <a class="colorpick-btn" href="#" style="background-color:#53a93f;" rel="${base}/css/themes/green.min.css"></a>
                                             </li>
                                             <li>
-                                                <a class="colorpick-btn" href="#" style="background-color:#FF8F32;" rel="../../mower/admin/css/orange.min.css"></a>
-                                            </li>
-
-                                            <li>
-                                                <a class="colorpick-btn" href="#" style="background-color:#8C0095;" rel="../../mower/admin/css/purple.min.css"></a>
+                                                <a class="colorpick-btn" href="#" style="background-color:#FF8F32;" rel="${base}/css/themes/orange.min.css"></a>
                                             </li>
                                             <li>
-                                                <a class="colorpick-btn" href="#" style="background-color:#0072C6;" rel="../../mower/admin/css/darkblue.min.css"></a>
+                                                <a class="colorpick-btn" href="#" style="background-color:#8C0095;" rel="${base}/css/themes/purple.min.css"></a>
                                             </li>
                                             <li>
-                                                <a class="colorpick-btn" href="#" style="background-color:#585858;" rel="../../mower/admin/css/gray.min.css"></a>
+                                                <a class="colorpick-btn" href="#" style="background-color:#0072C6;" rel="${base}/css/themes/darkblue.min.css"></a>
                                             </li>
                                             <li>
-                                                <a class="colorpick-btn" href="#" style="background-color:#474544;" rel="../../mower/admin/css/black.min.css"></a>
+                                                <a class="colorpick-btn" href="#" style="background-color:#585858;" rel="${base}/css/themes/gray.min.css"></a>
                                             </li>
                                             <li>
-                                                <a class="colorpick-btn" href="#" style="background-color:#001940;" rel="../../mower/admin/css/deepblue.min.css"></a>
+                                                <a class="colorpick-btn" href="#" style="background-color:#474544;" rel="${base}/css/themes/black.min.css"></a>
+                                            </li>
+                                            <li>
+                                                <a class="colorpick-btn" href="#" style="background-color:#001940;" rel="${base}/css/themes/deepblue.min.css"></a>
                                             </li>
                                         </ul>
                                     </li>
