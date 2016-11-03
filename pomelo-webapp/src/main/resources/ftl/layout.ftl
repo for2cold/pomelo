@@ -1,7 +1,7 @@
-<#global base=(springMacroRequestContext.getContextPath())?if_exists >
-<#global libVersion="1.0" >
-<#global version="1.0" >
-<#macro header title="" version="" scripts="">
+<#global base=(springMacroRequestContext.getContextPath())?if_exists />
+<#global libVersion="1.0" />
+<#global version="1.0" />
+<#macro html title="" version="" scripts="">
 <!DOCTYPE html>
 <html>
     <head>
@@ -25,9 +25,9 @@
             <div class="fa fa-spinner fa-pulse loader"></div>
         </div>
         <!--  /Loading Container -->
-        <#include "/templates/support/header.ftl"/>
-        <#include "/templates/support/container.ftl"/>
-        <#include "/templates/support/footer.ftl"/>
+        <#include "/ftl-support/header.ftl"/>
+        <#include "/ftl-support/container.ftl"/>
+        <#include "/ftl-support/footer.ftl"/>
         <!-- BEGIN CORE PLUGINS -->
         <script src="${base}/js/libs/jquery-1.11.1.js?v=${libVersion!}" type="text/javascript"></script>
         <script src="${base}/js/libs/json2.js?v=${libVersion!}" type="text/javascript"></script>
