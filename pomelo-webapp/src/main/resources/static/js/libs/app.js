@@ -61,11 +61,11 @@ var App = (function($, utils, window, document, undefined) {
                 $.ajaxPrefilter(function(options, originalOptions, jqXHR) {
                     var extension = options.url.slice((options.url.lastIndexOf(".") - 1 >>> 0) + 2);
                     if (extension !== 'js')
-                        options.url = "http://localhost:9000" + options.url;
+                        options.url = base + options.url;
                 });
             }
 
-            loading();
+            //loading();
 
             this.initMainMenu();
             this.initBreadCrumb();
@@ -100,9 +100,8 @@ var App = (function($, utils, window, document, undefined) {
             if (!rcode) {
                 rcode = selectedMenu.attr('mcode');
             }
-
             $(".sidebar-menu").sidebarMenu({
-                'url': "assets/ajax/data/menu.json",
+                'url': "/js/libs/menu.json",
                 "populate": false
             }).sidebarMenu('populate', rcode, mcode);
 

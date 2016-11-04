@@ -50,9 +50,6 @@
                                     <div class="profile">
                                         <h2><span>测试用户</span></h2>
                                     </div>
-                                    <div class="avatar" title="View your public profile">
-                                        <img src="../../assets/img/bing.png">
-                                    </div>
                                 </a>
                                 <!--Login Area Dropdown-->
                                 <ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area">
@@ -60,13 +57,6 @@
                                     </li>
                                     <li class="email"><a>test@infinitus-int.com</a>
                                     </li>
-                                    <!--Avatar Area-->
-                                    <li>
-                                        <div class="avatar-area">
-                                            <img src="../../assets/img/bing.png" class="avatar">
-                                        </div>
-                                    </li>
-                                    <!--Avatar Area-->
                                     <li class="edit">
                                         <a href="profile.html" class="pull-left">基本信息</a>
                                         <a href="#" class="pull-right">设置</a>

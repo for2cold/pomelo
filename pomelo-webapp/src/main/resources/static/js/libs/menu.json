@@ -1,0 +1,491 @@
+[{
+    "id": 1,
+    "code": "ADMIN-MENU-1",
+    "name": "Dashboard",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": null
+}, {
+    "id": 2,
+    "parentId": 1,
+    "code": "ADMIN-MENU-1-1",
+    "name": "Dashboard",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/index.html"
+}, {
+    "id": 7,
+    "code": "ADMIN-MENU-3",
+    "name": "UI元素",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": null
+}, {
+    "id": 8,
+    "parentId": 7,
+    "code": "ADMIN-MENU-3-1",
+    "name": "基本元素",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/ui_general.html"
+}, {
+    "id": 9,
+    "parentId": 7,
+    "code": "ADMIN-MENU-3-2",
+    "name": "按钮",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/ui_buttons.html"
+}, {
+    "id": 11,
+    "parentId": 7,
+    "code": "ADMIN-MENU-3-4",
+    "name": "选项卡",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/ui_tabs.html"
+}, {
+    "id": 12,
+    "parentId": 7,
+    "code": "ADMIN-MENU-3-5",
+    "name": "进度条",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/ui_progressbar.html"
+}, {
+    "id": 13,
+    "parentId": 7,
+    "code": "ADMIN-MENU-3-6",
+    "name": "分页条",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/ui_pager.html"
+}, {
+    "id": 14,
+    "parentId": 7,
+    "code": "ADMIN-MENU-3-7",
+    "name": "警告框",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/ui_alerts.html"
+}, {
+    "id": 15,
+    "parentId": 7,
+    "code": "ADMIN-MENU-3-8",
+    "name": "消息框",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/ui_messagebox.html"
+}, {
+    "id": 16,
+    "parentId": 7,
+    "code": "ADMIN-MENU-3-9",
+    "name": "弹出框",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/ui_modals.html"
+},
+{
+    "id": 17,
+    "code": "ADMIN-MENU-4",
+    "name": "UI组件",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": null
+},
+{
+    "id": 18,
+    "parentId": 17,
+    "code": "ADMIN-MENU-4-1",
+    "name": "日期选择",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri":"examples/admin/html/component_datepicker.html" 
+},
+{
+    "id": 19,
+    "parentId": 17,
+    "code": "ADMIN-MENU-4-2",
+    "name": "下拉组件",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": null
+},
+{
+    "id": 20,
+    "parentId": 19,
+    "code": "ADMIN-MENU-4-2-1",
+    "name": "下拉菜单",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/component_dropdownmenu.html"
+},
+{
+    "id": 21,
+    "parentId": 19,
+    "code": "ADMIN-MENU-4-2-2",
+    "name": "下拉列表",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/component_dropdownlist.html" 
+},
+{
+    "id": 22,
+    "parentId": 19,
+    "code": "ADMIN-MENU-4-2-3",
+    "name": "下拉表格",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/component_dropdowntable.html"
+},
+{
+    "id": 23,
+    "parentId": 19,
+    "code": "ADMIN-MENU-4-2-4",
+    "name": "下拉树",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/component_dropdowntree.html"
+},
+{
+    "id": 24,
+    "parentId": 19,
+    "code": "ADMIN-MENU-4-2-5",
+    "name": "下拉标签式查询",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/component_dropdowntags.html"
+},
+{
+    "id": 25,
+    "parentId": 19,
+    "code": "ADMIN-MENU-4-2-6",
+    "name": "下拉地址",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/component_dropdownaddress.html"
+},
+{
+    "id": 26,
+    "parentId": 17,
+    "code": "ADMIN-MENU-4-3",
+    "name": "Lookup查找查询",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/component_lookup.html"
+},
+{
+    "id": 27,
+    "code": "ADMIN-MENU-5",
+    "name": "表单",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": null
+},
+{
+    "id": 28,
+    "parentId": 27,
+    "code": "ADMIN-MENU-5-1",
+    "name": "基本元素",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/form_basic.html"
+},
+{
+    "id": 29,
+    "parentId": 27,
+    "code": "ADMIN-MENU-5-2",
+    "name": "表单布局",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/form_layout.html"
+},
+{
+    "id": 30,
+    "parentId": 27,
+    "code": "ADMIN-MENU-5-3",
+    "name": "表单向导",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/form_wizard.html"
+},
+{
+    "id": 31,
+    "parentId": 27,
+    "code": "ADMIN-MENU-5-4",
+    "name": "表单验证",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": ""
+},
+{
+    "id": 49,
+    "parentId": 31,
+    "code": "ADMIN-MENU-5-4",
+    "name": "简单类型",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/form_validate.html"
+},
+{
+    "id": 50,
+    "parentId": 31,
+    "code": "ADMIN-MENU-5-5",
+    "name": "明细表格",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/form_validatetable.html"
+},
+{
+    "id": 32,
+    "code": "ADMIN-MENU-6",
+    "name": "数据表格",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": null
+},
+{
+    "id": 33,
+    "parentId": 32,
+    "code": "ADMIN-MENU-6-1",
+    "name": "简单表格",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": null
+},
+{
+    "id": 34,
+    "parentId": 33,
+    "code": "ADMIN-MENU-6-1-1",
+    "name": "静态数据",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/datatables_static.html"
+},
+{
+    "id": 35,
+    "parentId": 33,
+    "code": "ADMIN-MENU-6-1-2",
+    "name": "Ajax数据",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/datatables_ajax.html"
+},
+{
+    "id": 36,
+    "parentId": 32,
+    "code": "ADMIN-MENU-6-2",
+    "name": "树表格",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/datatables_tree.html"
+},
+{
+    "id": 37,
+    "parentId": 32,
+    "code": "ADMIN-MENU-6-3",
+    "name": "定制化表格",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/datatables_custom.html"
+},
+{
+    "id": 38,
+    "code": "ADMIN-MENU-7",
+    "name": "面板",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": null
+},
+{
+    "id": 39,
+    "parentId": 38,
+    "code": "ADMIN-MENU-7-1",
+    "name": "基本面板",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/panels_basic.html"
+},
+{
+    "id": 40,
+    "parentId": 38,
+    "code": "ADMIN-MENU-7-2",
+    "name": "主题面板",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/panels_theme.html"
+},
+{
+    "id": 41,
+    "code": "ADMIN-MENU-8",
+    "name": "图表",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": null
+},
+{
+    "id": 42,
+    "parentId": 41,
+    "code": "ADMIN-MENU-8-1",
+    "name": "EChart",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/chart_echart.html"
+},
+{
+    "id": 43,
+    "parentId": 41,
+    "code": "ADMIN-MENU-8-2",
+    "name": "FlotChart",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/chart_flot.html"
+},
+{
+    "id": 44,
+    "parentId": 41,
+    "code": "ADMIN-MENU-8-3",
+    "name": "EasyPieChart",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": "examples/admin/html/chart_easypie.html"
+},
+{
+    "id": 45,
+    "code": "ADMIN-MENU-9",
+    "name": "典型页面",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri": null
+},
+{
+    "id": 46,
+    "parentId": 45,
+    "code": "ADMIN-MENU-9-1",
+    "name": "后端模板",
+    "attributes": {
+        "iconUri": null,
+        "openMode":"blank"
+    },
+    "uri": null
+},
+{
+    "id": 54,
+    "parentId": 46,
+    "code": "ADMIN-MENU-9-1-1",
+    "name": "模板1",
+    "attributes": {
+        "iconUri": null,
+        "openMode":"blank"
+    },
+    "uri": "examples/admin/html/page_admin.html"
+},
+{
+    "id": 55,
+    "parentId": 46,
+    "code": "ADMIN-MENU-9-1-2",
+    "name": "模板2",
+    "attributes": {
+        "iconUri": null,
+        "openMode":"blank"
+    },
+    "uri": "examples/admin/html/page_admin_light.html"
+},
+{
+    "id": 47,
+    "parentId": 45,
+    "code": "ADMIN-MENU-9-2",
+    "name": "前端模板",
+    "attributes": {
+        "iconUri": null
+    },
+    "uri":null
+},
+{
+    "id": 51,
+    "parentId": 47,
+    "code": "ADMIN-MENU-9-2-1",
+    "name": "模板一",
+    "attributes": {
+        "iconUri": null,
+        "openMode":"blank"
+    },
+    "uri": "examples/admin/html/page_front_shopping.html"
+},
+{
+    "id": 52,
+    "parentId": 47,
+    "code": "ADMIN-MENU-9-2-2",
+    "name": "模板二",
+    "attributes": {
+        "iconUri": null,
+        "openMode":"blank"
+    },
+    "uri": "examples/admin/html/page_front_shopping_search.html"
+},
+{
+    "id": 53,
+    "parentId": 47,
+    "code": "ADMIN-MENU-9-2-3",
+    "name": "模板三",
+    "attributes": {
+        "iconUri": null,
+        "openMode":"blank"
+    },
+    "uri": "examples/admin/html/page_front_shopping_lovejd.html"
+},
+
+{
+    "id": 48,
+    "parentId": 45,
+    "code": "ADMIN-MENU-9-3",
+    "name": "登录页面",
+    "attributes": {
+        "iconUri": null,
+        "openMode":"blank"
+    },
+    "uri": "examples/admin/html/page_login.html"
+}
+]
