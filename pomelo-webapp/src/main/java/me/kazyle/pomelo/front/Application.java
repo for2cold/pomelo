@@ -17,7 +17,7 @@ import org.springframework.context.annotation.ImportResource;
  * Created by Kazyle on 2016/10/26 14:42
  */
 @SpringBootApplication
-//@ImportResource("classpath*:META-INF/spring/dubbo-*.xml")
+@ImportResource("classpath*:META-INF/spring/dubbo-*.xml")
 public class Application extends SpringBootServletInitializer {
 
     @Override

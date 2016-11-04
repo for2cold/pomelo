@@ -228,7 +228,6 @@ var App = (function($, utils, window, document, undefined) {
                                 purl = purl + (purl.indexOf('?') > -1 ? '&' : '?') + 'rcode=' + rcode + '&mcode=' + mcode;
                             }
                             window.location.href = purl;
-
                             break;
                         }
                 }

@@ -1,3 +1,7 @@
+<#--
+    页面布局
+    Created By Kayzle 2016/11/03 13:52
+-->
 <#global base=(springMacroRequestContext.getContextPath())?if_exists >
 <#global libVersion="1.0" >
 <#global version="1.0" >
