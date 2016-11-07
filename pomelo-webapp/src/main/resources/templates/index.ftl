@@ -1,3 +1,3 @@
 <@layout.html title="首页">
-    测试内容
+    ${bo.memberNo!'----'}
 </@layout.html >

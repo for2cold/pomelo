@@ -2,10 +2,14 @@ package me.kazyle.pomelo.front.controller;/**
  * Created by Kazyle on 2016/11/3.
  */
 
+import me.kazyle.pomelo.api.MemberApi;
+import me.kazyle.pomelo.bo.MemberBo;
 import me.kazyle.pomelo.support.controller.BaseController;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.annotation.Resource;
 
 /**
  * <p>pomelo</p>
@@ -21,9 +25,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class IndexController extends BaseController {
 
+    @Resource
+    private MemberApi memberApi;
+
     @RequestMapping("/index")
     public String index(Model model) {
-        model.addAttribute("index", "Demo");
+        MemberBo bo = memberApi.getOne("122");
+        model.addAttribute("bo", bo);
         return viewName("index");
     }
 }

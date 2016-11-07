@@ -1,6 +1,7 @@
 package me.kazyle.pomelo.api.impl;
 
 import me.kazyle.pomelo.api.MemberApi;
+import me.kazyle.pomelo.bo.MemberBo;
 import me.kazyle.pomelo.repository.MemberRepository;
 import org.springframework.stereotype.Service;
 
@@ -21,4 +22,13 @@ public class MemberApiImpl implements MemberApi {
 
     @Resource
     private MemberRepository memberRepository;
+
+    @Override
+    public MemberBo getOne(String memberNo) {
+        MemberBo bo = new MemberBo();
+        bo.setMemberNo("1111");
+        bo.setName("kazyle");
+        bo.setContact("123");
+        return bo;
+    }
 }
