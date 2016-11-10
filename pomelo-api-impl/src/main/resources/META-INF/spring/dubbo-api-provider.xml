@@ -6,7 +6,7 @@
 	http://code.alibabatech.com/schema/dubbo http://macula.top/schema/dubbo/dubbo.xsd">
 
     <dubbo:application name="dubbo-pomelo-api" />
-    <dubbo:protocol name="dubbo" />
+    <dubbo:protocol name="dubbo" serialization="kryo"/>
     <dubbo:registry address="zookeeper://127.0.0.1:2181" register="false" />
     <dubbo:provider timeout="30000" threadpool="fixed" threads="100" accepts="1000" filter="-exception"/>
 

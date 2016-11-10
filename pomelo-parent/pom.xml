@@ -28,6 +28,8 @@
     </profiles>
 
     <properties>
+        <kryo.version>2.24.0</kryo.version>
+        <kryo.serializers.version>0.26</kryo.serializers.version>
         <springboot.version>RELEASE</springboot.version>
         <dubbo.version>2.5.3</dubbo.version>
         <joda-time.version>2.9.4</joda-time.version>
@@ -36,7 +38,7 @@
         <zkclient.version>0.1</zkclient.version>
         <mybatis.version>3.4.1</mybatis.version>
         <mysql.connector.version>6.0.4</mysql.connector.version>
-        <springloaded.version>1.2.3.RELEASE</springloaded.version>
+        <springloaded.version>1.2.6.RELEASE</springloaded.version>
         <mybatis.pagehelper.version>4.1.6</mybatis.pagehelper.version>
         <springboot.mybatis.version>1.1.1</springboot.mybatis.version>
     </properties>
@@ -82,6 +84,16 @@
                     <groupId>org.slf4j</groupId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.esotericsoftware.kryo</groupId>
+            <artifactId>kryo</artifactId>
+            <version>${kryo.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.javakaffee</groupId>
+            <artifactId>kryo-serializers</artifactId>
+            <version>${kryo.serializers.version}</version>
         </dependency>
         <dependency>
             <groupId>com.github.sgroschupf</groupId>
