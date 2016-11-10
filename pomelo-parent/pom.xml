@@ -29,6 +29,7 @@
 
     <properties>
         <kryo.version>2.24.0</kryo.version>
+        <guava.version>20.0</guava.version>
         <kryo.serializers.version>0.26</kryo.serializers.version>
         <springboot.version>RELEASE</springboot.version>
         <dubbo.version>2.5.3</dubbo.version>
@@ -130,6 +131,11 @@
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
             <version>${mybatis.pagehelper.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
         </dependency>
     </dependencies>
 
