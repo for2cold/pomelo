@@ -32,6 +32,9 @@ import java.util.concurrent.CountDownLatch;
 public class Application {
 
     public static void main(String[] args) throws InterruptedException {
-        SpringApplication.run(Application.class, args);
+        ApplicationContext ctx = new SpringApplicationBuilder()
+                .sources(Application.class)
+                .web(false)
+                .run(args);
     }
 }

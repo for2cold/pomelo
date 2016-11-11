@@ -1,5 +1,7 @@
 package me.kazyle.pomelo.support.helper;
 
+import com.google.common.base.Function;
+import com.google.common.collect.Maps;
 import me.kazyle.pomelo.support.config.KazyleProperties;
 import me.kazyle.pomelo.support.constants.KazyleConstants;
 import org.slf4j.Logger;
@@ -9,6 +11,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * <p>pomelo</p>
@@ -40,7 +43,10 @@ public class KazyleHelper {
      */
     public boolean checkIpWhiteList(String ip) {
         if (ipWhilteMap == null) {
-//            ipWhilteMap = Maps.
+            ipWhilteMap = Maps.newHashMap();
+            for (String whiteIp : kazyleProperties.getIpWhiteList()) {
+                ipWhilteMap.put(whiteIp, Boolean.TRUE);
+            }
         }
         if (ipWhilteMap.isEmpty()) {
             LOGGER.warn("Ip White List is Empty. Please check Kazyle Properties!");

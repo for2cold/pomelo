@@ -2,6 +2,7 @@ package me.kazyle.pomelo.support.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -24,6 +25,9 @@ public class KazyleProperties {
     private List<String> ipWhiteList;
 
     public List<String> getIpWhiteList() {
+        if (ipWhiteList == null) {
+            ipWhiteList = new ArrayList<>();
+        }
         return ipWhiteList;
     }
 

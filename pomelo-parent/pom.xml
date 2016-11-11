@@ -29,15 +29,16 @@
 
     <properties>
         <kryo.version>2.24.0</kryo.version>
-        <guava.version>20.0</guava.version>
+        <guava.version>18.0</guava.version>
         <kryo.serializers.version>0.26</kryo.serializers.version>
         <springboot.version>RELEASE</springboot.version>
-        <dubbo.version>2.5.3</dubbo.version>
+        <dubbo.version>2.8.4</dubbo.version>
         <joda-time.version>2.9.4</joda-time.version>
         <druid.version>1.0.26</druid.version>
         <zookeeper.version>3.4.9</zookeeper.version>
         <zkclient.version>0.1</zkclient.version>
         <mybatis.version>3.4.1</mybatis.version>
+        <common.lang3.version>3.5</common.lang3.version>
         <mysql.connector.version>6.0.4</mysql.connector.version>
         <springloaded.version>1.2.6.RELEASE</springloaded.version>
         <mybatis.pagehelper.version>4.1.6</mybatis.pagehelper.version>
@@ -136,6 +137,11 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${common.lang3.version}</version>
         </dependency>
     </dependencies>
 
