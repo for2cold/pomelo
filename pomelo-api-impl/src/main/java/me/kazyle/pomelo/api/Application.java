@@ -27,7 +27,7 @@ import java.util.concurrent.CountDownLatch;
 @SpringBootApplication(scanBasePackages = {"me.kazyle.pomelo"})
 @EnableConfigurationProperties({KazyleProperties.class})
 @EnableTransactionManagement
-@MapperScan(value = "me.kazyle.pomelo.mapper", annotationClass = MyBatisMapper.class)
+@MapperScan(value = "me.kazyle.pomelo.member.mapper", annotationClass = MyBatisMapper.class)
 @ImportResource("classpath*:META-INF/spring/dubbo-api-provider.xml")
 public class Application {
 

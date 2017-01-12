@@ -1,6 +1,6 @@
 package me.kazyle.pomelo.repository;
 
-import me.kazyle.pomelo.mapper.MemberMapper;
+import me.kazyle.pomelo.member.mapper.MemberMapper;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;

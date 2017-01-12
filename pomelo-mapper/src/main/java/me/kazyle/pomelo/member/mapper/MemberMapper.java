@@ -1,4 +1,4 @@
-package me.kazyle.pomelo.mapper;
+package me.kazyle.pomelo.member.mapper;
 
 import me.kazyle.pomelo.support.annotation.MyBatisMapper;
 

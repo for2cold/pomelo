@@ -1,10 +1,10 @@
-package me.kazyle.pomelo.entity;
+package me.kazyle.pomelo.support.entity;
 
 import java.io.Serializable;
 import java.util.Date;
 
 /**
- * <p>kimber</p>
+ * <p>pomelo</p>
  * <p>
  * <b>BaseEntity</b> is
  * </p>
